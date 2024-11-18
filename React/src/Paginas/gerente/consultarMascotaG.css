@@ -1,0 +1,80 @@
+.consultarMascotG-body {
+    margin: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  
+  .consultarMascotG-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    padding: 20px;
+  }
+  
+  .consultarMascotG-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 1200px;
+  }
+  
+  .consultarMascotG-filters {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .consultarMascotG-filterInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  .consultarMascotG-tableContainer {
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .consultarMascotG-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    color: black;
+  }
+  
+  .consultarMascotG-th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #bfbcbcbf;
+    font-weight: bold;
+  }
+  
+  .consultarMascotG-td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .consultarMascotG-icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; /* Ajusta el tamaño del ícono */
+    color: #4caf50; /* Color del ícono, puedes ajustarlo según tus necesidades */
+}
+
+.consultarMascotG-icon-button:hover {
+    color: #3e8e41; /* Color del ícono en hover */
+}
+  
